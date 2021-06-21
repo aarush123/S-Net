@@ -101,7 +101,7 @@ const ImageUpload = ({header}) => {
         <div className="App__avLog App__headerImage__uploadButton">
             <Button variant="outlined" className="App__signInButton" onClick={()=>setUploadPost(true)}>Upload</Button>
             <Button variant="outlined" className="App__signInButton" onClick = {() => auth.signOut()}>Logout</Button>
-            <Avatar alt={header} src="s"className="App__avatarLetter"/>
+            <Avatar alt={header} src="f"className="App__avatarLetter"/>
         </div>
 
     </div>

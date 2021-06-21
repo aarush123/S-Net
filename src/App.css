@@ -24,7 +24,7 @@ margin-right: auto;
   background-color: white;
   border-bottom: 1px solid lightgray;
   margin-bottom:50px;
-  opacity: 100%;
+
 }
 .post__one{
   margin-top: 100px;
@@ -63,3 +63,9 @@ margin: 4px !important;
   display: flex;
 }
 
+@media (orientation:portrait){
+  .App{
+    max-width: 400px;
+    overflow-x: hidden;
+  }
+}

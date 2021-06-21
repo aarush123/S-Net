@@ -1,0 +1,96 @@
+@media (orientation: landscape){
+.LoginEntry__card__content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.LoginEntry__logo{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.LoginEntry__username{
+    margin-top: 10px!important;
+}
+.LoginEntry__SubmitBtn{
+    margin-top: 40px!important;
+}
+.LoginEntry__InputBtn{
+    margin-top: 10px!important;
+}
+.LoginEntry__password{
+    margin-top:10px!important;
+}
+.LT__card{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .LT__cardContent{
+    flex-direction: column;
+    }
+    .LT__card__LoginLink{
+        text-decoration: none;
+        color: #0095F6;
+    }
+    .LoginEntry__HRS{
+        display: none;
+    }
+    .LoginEntry__SignInBtn__Mob{
+        display: none !important;
+    }
+}
+    /* for mobile view */
+@media (orientation: portrait){
+    .LT__card{
+        display: none;
+    }
+.flex__item{
+    width: 100% !important;
+}
+.LoginEntry__card{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+} 
+.LoginEntry__card__content{
+    width: 100%;
+    padding-top: 40%;
+}
+.LoginEntry__logo{
+    width: 80%;
+}
+.LoginEntry__HRS{
+    display: flex;
+    flex-direction:row  !important;
+    margin-top: 20px !important;
+}
+.LoginEntry__hr1{
+    width: 40%;
+    margin-right: auto !important;
+    display: block !important;
+    height: 0px;
+    margin-top: 10px;
+}
+.LoginEntryMIDor{
+    font-weight: lighter;
+} 
+.LoginEntry__hr2{
+    width: 40%;
+    margin-left: auto !important;
+    display: block !important;
+    height: 0px;
+    margin-top: 10px;
+}
+.LoginEntry__SignInBtn__Mob{
+    display: block !important;
+    margin-top: 20px !important;
+    width: 100%;
+}
+
+}
